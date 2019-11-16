@@ -1,8 +1,12 @@
 # csc413-tankgame
 
 ## Student Name  :Henzon Zambrano
-## Student ID    :916843036
+## Student gameObjects.ID    :916843036
 
+This tank game is made using Intellij IDE (JDK 12). The current working directory is Desktop.
+Run the game using the jar file(might have to run it through terminal because my jar file won't run).
+
+The game controls are simple. Movements are W,A,S,D,UP,DOWN,LEFT and RIGHT to move around. To shoot, press SPACE or '/'. 
 
 ## src folder is to be used to store source code only.
 
