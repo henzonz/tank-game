@@ -159,12 +159,13 @@ public class Player extends GameObject {
             if (temp.getId().equals(ID.SmallBullet)) {
                 if (!((SmallBullet) temp).getShooter().equals(this)) {
                     if (getBounds().intersects(temp.getBounds())) {
-                        health-=10;
+                        health-=15;
                         eventHandler.addObject(new Explosion(temp.getX(),temp.getY(),ID.Explosion, eventHandler));
                         eventHandler.removeObject(temp);
                     }
                 }
             }
+
         }
     }
 

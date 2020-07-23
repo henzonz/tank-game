@@ -7,5 +7,6 @@ public enum ID {
     Tree(),
     Rock(),
     Explosion(),
-    HealthPowerUp()
+    HealthPowerUp(),
+    RateOfFirePowerUp()
 }
